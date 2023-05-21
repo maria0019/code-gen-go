@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "type": "sport",
+    "title": "Soccer",
+    "short": "Soccer",
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "type": "sport",
+    "title": "Basketball",
+    "short": "Basketball",
+    "isActive": true
+  },
+  {
+    "id": 1,
+    "sportId": 1,
+    "type": "league",
+    "title": "English Premier League",
+    "short": "EPL",
+    "games": 23
+  },
+  {
+    "id": 2,
+    "sportId": 2,
+    "type": "league",
+    "title": "NBA",
+    "short": "NBA",
+    "isActive": true
+  },
+  {
+    "id": 1,
+    "sportId": 1,
+    "leagueId": 1,
+    "type": "team",
+    "title": "Man City",
+    "isActive": true
+  },
+  {
+    "id": 1,
+    "sportId": 1,
+    "leagueId": 1,
+    "teamId": 1,
+    "type": "player",
+    "name": "Marcus Rashford",
+    "birthDate": "2020-01-01",
+    "isActive": true
+  }
+]
